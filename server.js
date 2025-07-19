@@ -19,7 +19,7 @@ app.get('/api/get_user_details', (req, res)=>{
     }) 
 });
 
-app.get('/api/testing node', (req, res)=>{
+app.get('/api/testing', (req, res)=>{
     res.send({message: "Testing my node project"}) 
 });
 
