@@ -19,6 +19,10 @@ app.get('/api/get_user_details', (req, res)=>{
     }) 
 });
 
+app.get('/api/testing node', (req, res)=>{
+    res.send({message: "Testing my node project"}) 
+});
+
 
 app.listen(8000, ()=> {
     console.log("Listening to 8000");
